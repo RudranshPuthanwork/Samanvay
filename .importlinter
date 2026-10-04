@@ -1,0 +1,16 @@
+[importlinter]
+root_package = samanvay
+
+[importlinter:contract:truth-belief-firewall]
+name = Truth / Belief Isolation Firewall
+type = forbidden
+source_modules =
+    samanvay.w1
+    samanvay.w2
+    samanvay.w3
+    samanvay.w4
+    samanvay.w5
+    samanvay.w6
+    samanvay.server
+forbidden_modules =
+    samanvay.core.truth

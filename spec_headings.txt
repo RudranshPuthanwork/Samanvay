@@ -1,0 +1,93 @@
+L1: # SAMANVAY v2.0 ? Final Architecture for ELEVATE 1.0 ? EL-05
+L2: ### AI-Powered Autonomous Robot & Drone Swarm Mission Orchestration
+L15: # Part I ? Orientation
+L19: ## 0.1 Technology explained
+L43: ## 0.2 The solution explained
+L45: ### The problem in one paragraph
+L49: ### The shape of the system
+L57: ### `samanvay.core` ? the shared foundation
+L61: ### W0 ? Scenario Lab
+L65: ### W1 ? Mission Understanding
+L69: ### W2 ? Allocation, Routing and Search
+L73: ### W3 ? Communications
+L77: ### W4 ? Foresight ? (the USP ? ?7)
+L81: ### W5 ? Safety Shield and Escalation
+L85: ### W6 ? Explanation and Accountability
+L89: ### The console
+L93: ### How a run flows
+L101: ## 0.3 Concepts explained
+L129: # Part II ? Architecture
+L131: ## 1. Executive summary
+L148: ## 2. Independent audit findings (against the v1.0 blueprint)
+L174: ## 3. Re-decided design questions
+L191: ## 4. Requirements coverage matrix
+L215: ## 5. System architecture
+L217: ### 5.1 Module diagram
+L283: ### 5.2 The single-process, offline property
+L287: ### 5.3 Frozen inter-module contracts (schemas v2)
+L430: ### 5.4 Ownership and integration rules
+L438: ### 5.5 Extensibility interface
+L473: ## 6. Workstream specifications
+L477: ### 6.1 W0 ? Scenario Lab (ground-truth factory)
+L529: ### 6.2 W1 ? Mission Understanding
+L562: ### 6.3 W2 ? Allocation, Routing and Search
+L624: ### 6.4 W3 ? Communications
+L654: ### 6.5 W4 ? Foresight ? (the USP)
+L722: ### 6.6 W5 ? Safety Shield and Escalation ?
+L749: ### 6.7 W6 ? Explanation and Accountability
+L777: ## 7. Novel contributions and the USP
+L779: ### 7.1 Applied / Adapted / Invented
+L798: ### 7.2 The four falsification tests, applied
+L810: ### 7.3 The USP
+L825: ### 7.4 Each addition against the six constraints
+L839: ## 8. Interface architecture decision
+L841: ### 8.1 Constraints
+L847: ### 8.2 The comparison (1 = worst, 5 = best)
+L863: ### 8.3 Console artifacts ? implementation
+L879: ## 9. Tech stack
+L904: ## 10. Evaluation methodology
+L908: ### 10.1 Metrics ? computation and targets
+L927: ### 10.2 Baselines (fix for IA-03)
+L939: ### 10.3 Protocol
+L947: ### 10.4 External sanity lane ? CVRPLIB (Could)
+L951: ### 10.5 USP evaluation ? simulated operators
+L955: ### 10.6 Robustness and safety suite (fix for IA-10)
+L961: ### 10.7 Anti-overfitting mechanisms
+L971: ### 10.8 Generality proof
+L977: ## 11. Safety and security architecture
+L979: ### 11.1 Hazards and controls
+L993: ### 11.2 SAMANVAY's own attack surface
+L999: ### 11.3 Command authentication in deployment (design, not built)
+L1003: ### 11.4 Keys
+L1007: ### 11.5 Trust boundaries (printed in every after-action report)
+L1013: ## 12. Standards and doctrine alignment
+L1027: ## 13. Robustness analysis ? what we claim and what we refuse to claim
+L1029: ### 13.1 Claims
+L1038: ### 13.2 Model misspecification experiment
+L1042: ### 13.3 What we refuse to claim
+L1052: ## 14. Work breakdown
+L1063: ### 14.1 Dependencies and critical path
+L1073: ### 14.2 Single points of failure and mitigations
+L1082: ### 14.3 Effort ledger (fix for IA-16)
+L1109: ## 15. Timeline
+L1113: ### 15.1 (a) Before the PPT / idea-submission gate
+L1120: ### 15.2 (b) Before arrival (Plan P only)
+L1124: ### 15.3 (c) The on-site build (Plan N shown; Plan P compresses H0?H14)
+L1139: ### 15.4 Buffers
+L1145: ## 16. Scope split
+L1160: ## 17. Demo script ? five minutes
+L1183: ## 18. Novelty and competitive positioning
+L1198: ## 19. Operational deployment
+L1200: ### 19.1 Operating model
+L1211: ### 19.2 Policy and accountability path
+L1217: ### 19.3 Deployment cost
+L1226: ### 19.4 Prototype ? production
+L1236: ## 20. Scalability
+L1238: ### 20.1 Run-time cost `[ESTIMATE ? measured at milestone M2 and replaced]`
+L1248: ### 20.2 Load-bearing estimates and the 3? consequence
+L1257: ### 20.3 What breaks at scale, and the response
+L1263: ## 21. Risk register
+L1285: ## 22. Judge Q&A ? twenty hardest questions
+L1329: ## 23. Self-assessment
+L1348: ## 24. Change register ? v1.0 blueprint ? v2.0
+L1376: ## References

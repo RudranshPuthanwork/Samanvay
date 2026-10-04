@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-ground: #101215;
+  --color-surface: #161A1E;
+  --color-surface-raised: #1D2227;
+  --color-rule: #2A3036;
+  --color-rule-strong: #414A53;
+  --color-ink: #E8E6E1;
+  --color-ink-2: #A9ADB1;
+  --color-ink-3: #737A82;
+  --color-attention: #D8A24A;
+  --color-fact: #74B08C;
+  --color-policy: #8FA3B8;
+  --color-safety: #CE5F51;
+}
+
+[data-theme="light"] {
+  --color-ground: #F3F1EC;
+  --color-surface: #FFFFFF;
+  --color-surface-raised: #E8E5DF;
+  --color-rule: #D5D1C9;
+  --color-rule-strong: #A8A297;
+  --color-ink: #15181B;
+  --color-ink-2: #484E55;
+  --color-ink-3: #7A818A;
+  --color-attention: #8A5F10;
+  --color-fact: #2E6B46;
+  --color-policy: #486178;
+  --color-safety: #962E22;
+}
+
+* {
+  border-radius: 0 !important;
+  box-shadow: none !important; /* shadow-none */
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--color-ground);
+  color: var(--color-ink);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom flat scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-rule-strong);
+}
+
+/* Square focus outline in attention */
+:focus-visible {
+  outline: 2px solid var(--color-attention) !important;
+  outline-offset: 1px;
+}
+
+/* Flat square form controls (DESIGN.md section 4) */
+input[type="checkbox"] {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  flex: none;
+  background: var(--color-surface);
+  border: 1px solid var(--color-rule-strong);
+  cursor: pointer;
+}
+input[type="checkbox"]:checked {
+  background: var(--color-attention);
+  border-color: var(--color-attention);
+}
+
+input[type="range"] {
+  appearance: none;
+  height: 12px;
+  background: transparent;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 2px;
+  background: var(--color-rule-strong);
+}
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 6px;
+  height: 12px;
+  margin-top: -5px;
+  background: var(--color-attention);
+  border: 0;
+}
+input[type="range"]::-moz-range-track {
+  height: 2px;
+  background: var(--color-rule-strong);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 6px;
+  height: 12px;
+  background: var(--color-attention);
+  border: 0;
+}

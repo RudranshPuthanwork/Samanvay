@@ -1,0 +1,15 @@
+# Direct dependencies. Exact versions are pinned in requirements.lock (pip freeze).
+numpy>=1.26,<3
+scipy>=1.11,<2
+fastapi>=0.110,<1
+uvicorn[standard]>=0.29,<1
+pydantic>=2.6,<3
+cryptography>=42
+ortools>=9.8,<10
+osmnx>=2.0,<3
+shapely>=2.0,<3
+pytest>=8,<9
+hypothesis>=6.100,<7
+import-linter>=2.0,<3
+mypy>=1.10
+ruff>=0.5
